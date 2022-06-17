@@ -51,7 +51,7 @@ Samba提供了基於CIFS的四個服務：文件和打印服務、授權與被�
 ----------
 * 在ubuntu安裝samba
 ```
-$ sudo apt-get install samba-y
+$ sudo apt-get install samba
 ```
 * 安裝完後Samba會自動啟動，若沒有啟動，可輸入如下指令
 ```
@@ -81,7 +81,7 @@ $ sudo service smbd restart
 -------------------
 * 也是要調整samba伺服器的設定值，設定檔仍為/etc/samba/smb.conf
 ```
-$ nano /etc/samba/smb.conf
+$ sudo nano /etc/samba/smb.conf
 ```
 * 在最末端打上一些設定
 ```
@@ -102,7 +102,7 @@ $ sudo service smbd restart
 --------------------
 * 調整samba伺服器的設定值，設定檔仍為/etc/samba/smb.conf
 ```
-$ nano /etc/samba/smb.conf
+$ sudo nano /etc/samba/smb.conf
 ```
 * 在最末端打上一些設定
 ```
